@@ -1,2 +1,2 @@
 # Estudos-Backend
- Pasta voltada aos meus estudos em python e Java
+ Pasta voltada aos meus estudos em linguagem Java e Spring Boot
