@@ -14,16 +14,18 @@ public class CalculadoraTerreno {
         System.out.printf("------------------------------%n");
 
         //Capturando dados do cliente.
+        double A, B, C;
         IO.println("Insira a altura do terreno: ");
-        double A = sc.nextDouble();
+        A = sc.nextDouble();
         IO.println("Insira a largura do terreno: ");
-        double B = sc.nextDouble();
+        B = sc.nextDouble();
         IO.println("Valor do metro²: ");
-        double C = sc.nextDouble();
+        C = sc.nextDouble();
         System.out.printf("------------------------------%n");
 
-        double area = B*A;
-        double preco = C * area;
+        double area, preco;
+        area = B*A;
+        preco = C * area;
         System.out.printf("Altura: %.1f%nLargura: %.1f%nPreço(m²): %.2f%nÁrea: %.2fm²%n", A, B, C, area);
         System.out.printf("Preço do Terreno: %.2f%n", preco);
         if (area > 100.0){
